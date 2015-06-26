@@ -5242,14 +5242,15 @@ button.close {
 }
 .carousel {
 	position: relative;
-	height:695px;
+	/*height:680px;*/
 	padding-top:200px;
 }
 .carousel-inner {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	height:480px;
+	/*height:480px;*/
+	height:550px;
 }
 .carousel-inner>.item {
 	position: relative;

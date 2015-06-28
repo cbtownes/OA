@@ -186,6 +186,7 @@ a:focus {
         font-size: 25px;
 		
     }
+	
 
     .intro .intro-body .intro-text {
         font-size: 15px;
@@ -288,95 +289,8 @@ a:focus {
     margin-top: 100px;
 }
 
-.contact {
-	margin-top: 100px;
-	width: 100%;
-	height:1000px;
-	background:linear-gradient(rgba(0,0,0,1.00)100px, rgba(255,255,255,0.00), rgba(255,255,255,0.00), rgba(0,0,0,1.00)),url(../img/elements/114H.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.contact-back {
-	height:680px;
-	background: rgba(60,61,63,0.53);
-	margin-top:174px;
-	margin-left: -45px; 
-	padding-left: 25px; 
-	margin-right: -45px; 
-	padding-right: 40px;
-	
-}
-
-.contact-info {
-	padding-bottom:400px;
-}
-
-.contact-info h2 {
-	margin-top:51px;
-}
-
-.contact-info p {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
-}
-
-.contact-form {
-	padding-top:100px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.client-access{
-	margin-top: 100px;
-	width: 100%;
-	background:linear-gradient(rgba(0,0,0,1.00)100px, rgba(255,255,255,0.00), rgba(255,255,255,0.00), rgba(0,0,0,1.00)), url(../img/elements/kaboompics.com_Man%20holds%20digital%20tablet%20%20in%20his%20hands.jpg);
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 
-.client-back{
-	background: rgba(60,61,63,0.53);
-	margin-top:174px;
-	margin-bottom:100px;
-	margin-left: -45px; 
-	padding-left: 25px; 
-	margin-right: -45px; 
-	padding-right: 40px;
-	
-}
-
-.client-back h2{
-	margin-top: 51px;
-}
-
-.client-line {
-	padding-bottom: 40px; 
-	border-bottom-style: solid; 
-	border-bottom-width: 0px; 
-	border-top-width: 1px; 
-	border-top-style: solid; 
-	padding-top: 40px; 
-	margin-bottom: 0px; 
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.icons {
-	padding-bottom: 40px; 
-	padding-top: 40px; 
-	margin-top: 0px;
-}
-
-.icons li {
-	padding-right: 20px;
-}
-
-.icon-spacing  {
-	padding-bottom: 20px;
-}
 
 
 @media(min-width:767px) {
@@ -442,13 +356,7 @@ ul.banner-social-buttons {
     }
 }
 
-footer {
-    padding: 50px 0;
-}
 
-footer p {
-    margin: 0;
-}
 
 ::-moz-selection {
     text-shadow: none;
@@ -473,6 +381,93 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+.texture {
+	background:linear-gradient(rgba(0,0,0,1.00)200px, rgba(65,64,66,1.00)60%, rgba(65,64,66,1.00)10%, rgba(0,0,0,1.00));
+	
+}
+
+.legal {
+	border-top:solid 1px; 
+	padding:15px;
+}
+
+.legal p {
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+
+.legal-glyph {
+	padding-left:10px;
+}
+
+
+.background-cover {
+	background-size:cover;
+}
+
+
+
+
+/*---Fonts---*/
+
+.font-10 {
+	font-size:10pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-12 {
+	font-size:12pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-16 {
+	font-size:16px; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.font-18 {
+	font-size:18pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	letter-spacing:0.15pt;
+}
+
+/*---Home---*/
+
+.heading-space {
+	margin-bottom:20px;
+}
+
+
+/*---About---*/
+
+.about-right {
+	padding-right:100px; 
+	height:1200px;
+}
+
+.about-helping {
+	font-size:38pt; 
+	text-align:center;
+}
+
+.about-hr {
+	width:250px;
+	margin-right:0px;
+	margin-bottom:30px;
+}
+
+.about-left {
+	border-left:solid 1px; 
+	padding-left:60px;
+}
+
+.img-style {	
+	border-radius:100px;
+}
+
+/*---Client---*/
 
 .carousel-cover {
 	/*background-color:blue;*/
@@ -501,80 +496,9 @@ body {
 	
 }
 
-.texture {
-	background:linear-gradient(rgba(0,0,0,1.00)200px, rgba(65,64,66,1.00)60%, rgba(65,64,66,1.00)10%, rgba(0,0,0,1.00));
-	
-}
-
 .controls {
 	position:absolute;
 	z-index:99;
-}
-
-.heading-space {
-	margin-bottom:20px;
-}
-
-.font-12 {
-	font-size:12pt;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	
-	
-}
-
-.about-right {
-	padding-right:100px; 
-	height:1200px;
-}
-
-.about-helping {
-	font-size:38pt; 
-	text-align:center;
-}
-
-.about-hr {
-	width:250px;
-	margin-right:0px;
-	margin-bottom:30px;
-}
-
-.font-18 {
-	font-size:18pt;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	letter-spacing:0.15pt;
-}
-	
-.about-left {
-	border-left:solid 1px; 
-	padding-left:60px;
-	
-}
-	
-.img-style {	
-	border-radius:100px;
-}
-
-.legal {
-	border-top:solid 1px; 
-	padding:15px;
-}
-
-.legal p {
-	margin-top: 20px; 
-	margin-bottom: 20px;
-}
-
-.legal-glyph {
-	padding-left:10px;
-}
-
-.font-16 {
-	font-size:16px; 
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.background-cover {
-	background-size:cover;
 }
 
 .client-detail {
@@ -609,13 +533,188 @@ body {
 	margin: 0px 0px 5px;
 }
 
-.font-10 {
-	font-size:10pt;
+/*---Client Access---*/
+
+.client-access{
+	margin-top: 100px;
+	width: 100%;
+	background:linear-gradient(rgba(0,0,0,1.00)100px, rgba(255,255,255,0.00), rgba(255,255,255,0.00), rgba(0,0,0,1.00)), url(../img/elements/kaboompics.com_Man%20holds%20digital%20tablet%20%20in%20his%20hands.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.client-back{
+	background: rgba(60,61,63,0.53);
+	margin-top:174px;
+	margin-bottom:100px;
+	margin-left: -45px; 
+	padding-left: 25px; 
+	margin-right: -45px; 
+	padding-right: 40px;
+	
+}
+
+.client-back h2{
+	margin-top: 51px;
+}
+
+.client-line {
+	padding-bottom: 40px; 
+	border-bottom-style: solid; 
+	border-bottom-width: 0px; 
+	border-top-width: 1px; 
+	border-top-style: solid; 
+	padding-top: 40px; 
+	margin-bottom: 0px; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.icons {
+	padding-bottom: 40px; 
+	padding-top: 40px; 
+	margin-top: 0px;
+}
+
+.icons li {
+	padding-right: 20px;
+}
+
+.icon-spacing  {
+	padding-bottom: 20px;
+}
+
+
+/*---Contct---*/
+
+.contact {
+	margin-top: 100px;
+	width: 100%;
+	height:1000px;
+	background:linear-gradient(rgba(0,0,0,1.00)100px, rgba(255,255,255,0.00), rgba(255,255,255,0.00), rgba(0,0,0,1.00)),url(../img/elements/114H.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-back {
+	height:680px;
+	background: rgba(60,61,63,0.53);
+	margin-top:174px;
+	margin-left: -45px; 
+	padding-left: 25px; 
+	margin-right: -45px; 
+	padding-right: 40px;
+	
+}
+
+.contact-info {
+	padding-bottom:400px;
+}
+
+.contact-info h2 {
+	margin-top:51px;
+}
+
+.contact-info p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
+.contact-form {
+	padding-top:100px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
+/*---Footer---*/
 
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*---------Ipad (Landscape)----------*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.intro .intro-body .brand-heading {
+    font-size: 20px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 16px;
+}
+
+.about-left {
+	border-left:solid 1px; 
+	padding-left:30px;
+}
+
+.carousel-text {
+	position:absolute;
+	z-index:99;
+	margin-left:19px;
+	padding-top:100px;
+}
+
+.icons {
+	padding-bottom: 40px; 
+	padding-top: 40px; 
+	margin-top: 0px;
+}
+
+.icons li {
+	padding-right: 10px;
+}
+}
+
+/*---------Ipad (Portrait)----------*/
+
+@media (min-width: 768px) and (max-width: 959px){
+
+	.intro .intro-body .brand-heading {
+    font-size: 20px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 16px;
+}
+
+.about-left {
+	border-left:solid 1px; 
+	padding-left:30px;
+}
+
+.carousel-text {
+	position:absolute;
+	z-index:99;
+	margin-left:19px;
+	padding-top:100px;
+}
+
+.icons {
+	padding-bottom: 40px; 
+	padding-top: 40px; 
+	margin-top: 0px;
+}
+
+.icons li {
+	padding-right: 10px;
+}	
+	
+	
+.content-section {
+    padding-top: 0px;
+	
+}
+
+	
+}
 
 
 

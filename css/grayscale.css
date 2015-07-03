@@ -1474,7 +1474,7 @@ footer {
 .navbar-brand {
 	float: left;
 	height: 50px;
-	padding: 15px 15px;
+	padding: 10px 15px;
 	font-size: 18px;
 	line-height: 20px;
 	margin-left:20px;
@@ -1483,9 +1483,9 @@ footer {
 .navbar-toggle {
 	position: relative;
 	float: right;
-	padding: 9px 90px 0px 30px;
+	padding: 9px 60px 0px 20px;
 	margin-top: 8px;
-	margin-right: 45px;
+	margin-right: 0px;
 	margin-bottom: 8px;
 	background-color: transparent;
 	background-image: none;
